@@ -5,37 +5,43 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Banco Original: banco digital para Pessoa Física e Jurídica</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-  <div class="grid-container">
     <header id="header">
-      <nav class="menu-left">
-        <picture class="logo-menu">
-          <a href="./"><img src="img/logo-nome-branco.svg" alt="Logo Banco Original"></a>
-        </picture>
+      <nav class="menu-left"> 
+          <a href="./">
+            <img class="logo-menu" src="img/logo-nome-branco.svg" alt="Logo Banco Original">
+          </a>
         <ul>
           <li class="nav-item">
             <a class="item-para-voce" href="https://www.original.com.br/para-voce/">Para você</a>
           </li>
           <li class="nav-item">
             <a class="item-para-empresa" href="">Para sua empresa</a>
-            <div class="nav-subitem" id="subitens-para-empresa">
-              <a href="https://www.original.com.br/corporate">Conta Corporate
+            <ul class="nav-subitem" id="subitens-para-empresa">
+              <li>
+                <a href="https://www.original.com.br/corporate">Conta Corporate
                 <br>
                 <span class="subitem-small">Empresas com faturamento anual acima de 300MM</span></a>
-              <a href="https://www.original.com.br/agronegocio/">Conta Agronegócio
+              </li>
+              <li>
+                <a href="https://www.original.com.br/agronegocio/">Conta Agronegócio
                 <br>
                 <span class="subitem-small">Para produtores rurais</span></a>
-            </div>
+              </li>
+            </ul>
           </li>
-          <li class="nav-item">
+          <li class="nav-item" data-dropdown>
             <a class="item-sobre-original" href="">Sobre o Original</a>
-            <div class="nav-subitem" id="subitens-sobre-o-original">
-              <a href="https://www.original.com.br/governanca/">Governança</a>
-              <a href="https://www.original.com.br/relacoes/">Relações com Investidores</a>
-            </div>
+            <ul class="nav-subitem" id="subitens-sobre-o-original">
+              <li><a href="https://www.original.com.br/governanca/">Governança</a></li>
+              <li><a href="https://www.original.com.br/relacoes/">Relações com Investidores</a></li>
+            </ul>
           </li>
           <li class="nav-item">
             <a id="btn-modal-telefone-menu" href="#">Ajuda</a>
@@ -48,13 +54,13 @@
             <a class="item-emprestimo-cartao" href="https://nc.original.com.br/" target="_blank">Meus empréstimos e cartões</a>
           </li>
           <li class="nav-item">
-            <a class="item-acessar-conta" href="#">Acessar Conta</a>
-            <div class="nav-subitem" id="subitens-acessar-conta">
-              <a href="#">Para você</a>
-              <a href="#">Empresas Agronegócio</a>
-              <a href="#">Corporate</a>
-              <a href="#">Agronegócio</a>
-            </div>
+            <a class="item-acessar-conta" href="/">Acessar Conta</a>
+            <ul class="nav-subitem" id="subitens-acessar-conta">
+              <li><a href="#">Para você</a></li>
+              <li><a href="#">Empresas Agronegócio</a></li>
+              <li><a href="#">Corporate</a></li>
+              <li><a href="#">Agronegócio</a></li>
+            </ul>
           </li>
           <li class="nav-item">
             <a class="item-abrir-conta" href="https://picpay.com/">Abrir Nova Conta</a>
@@ -204,24 +210,22 @@
               <a target="_blank" class="logo-social" href="https://www.facebook.com/BancoOriginal/" title="Facebook"><img src="img/logo-facebook.svg" alt="Logo facebook"></a>
             </li>
             <li>
-              <a target="_blank" class="logo-social" href="https://www.instagram.com/bancooriginal/" title="Instagram"><img src="img/logo-instagram.svg" alt="Logo instagram"</a>
+              <a target="_blank" class="logo-social" href="https://www.instagram.com/bancooriginal/" title="Instagram"><img src="img/logo-instagram.svg" alt="Logo instagram" </a>
             </li>
             <li>
-              <a target="_blank" class="logo-social" href="https://www.youtube.com/user/BancoOriginal" title="YouTube"><img src="img/logo-youtube.svg" alt="Logo youtube"</a>
+              <a target="_blank" class="logo-social" href="https://www.youtube.com/user/BancoOriginal" title="YouTube"><img src="img/logo-youtube.svg" alt="Logo youtube" </a>
             </li>
             <li>
-              <a target="_blank" class="logo-social" href="https://twitter.com/bancooriginal" title="Twitter"><img src="img/logo-twitter.svg" alt="Logo twitter"</a>
+              <a target="_blank" class="logo-social" href="https://twitter.com/bancooriginal" title="Twitter"><img src="img/logo-twitter.svg" alt="Logo twitter" </a>
             </li>
             <li>
-              <a target="_blank" class="logo-social" href="https://www.linkedin.com/company/banco-original" title="Linkedin"><img src="img/logo-linkedin.svg" alt="Logo linkedin"</a>
+              <a target="_blank" class="logo-social" href="https://www.linkedin.com/company/banco-original" title="Linkedin"><img src="img/logo-linkedin.svg" alt="Logo linkedin" </a>
             </li>
           </ul>
         </div>
         <div class=""></div>
       </div>
     </footer>
-
-  </div>
 
   <script src="main.js/main.js"></script>
 </body>

@@ -1,0 +1,56 @@
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1b1b1b;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100vw;
+  max-height: 100px;
+  color: white;
+  gap: 20px;
+}
+#header .menu-left .logo-menu {
+  height: 100px;
+  width: 180px;
+  padding: 0 20px;
+}
+#header .menu-left,
+#header .menu-right {
+  display: flex;
+  align-items: center;
+}
+#header ul {
+  display: flex;
+  align-items: center;
+}
+#header .nav-item a {
+  display: block;
+  padding: 0 20px;
+  text-align: left;
+  padding-top: 45px;
+  height: 100px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+#header .nav-item {
+  position: relative;
+}
+#header .nav-item a:hover {
+  color: #00a857;
+  background-color: black;
+  transition: 0.3s;
+}
+#header .menu-right .nav-item .item-acessar-conta {
+  background-color: #00a857;
+  color: white;
+}
+#header .menu-right .nav-item .item-abrir-conta {
+  background-color: #757575;
+  color: white;
+}
+
