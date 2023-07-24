@@ -41,5 +41,14 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+a {
+	text-decoration: none;
+	color: inherit;
+}
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
 
 /* END RESET */
