@@ -2,8 +2,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #1b1b1b;
+  background-color: rgba(29, 29, 29, 0.466);
   position: fixed;
+  z-index: 300;
   top: 0;
   left: 0;
   right: 0;
@@ -41,8 +42,8 @@
   position: relative;
 }
 #header .nav-item a:hover {
-  color: #00a857;
-  background-color: black;
+  color: #00dd72;
+  background-color: transparent;
   transition: 0.3s;
 }
 #header .menu-right .nav-item .item-acessar-conta {
@@ -52,5 +53,5 @@
 #header .menu-right .nav-item .item-abrir-conta {
   background-color: #757575;
   color: white;
+  padding-right: 30px;
 }
-
