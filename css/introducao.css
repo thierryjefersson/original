@@ -130,8 +130,8 @@
   transition: 0.2s ease-out;
 }
 .js #main-intro-home #section-01 .nav-circles .item-circle.active {
-  color: #00a857;
-  border-color: #00a857;
+  color: #00A857;
+  border-color: #00A857;
   background-color: #fff;
 }
 
@@ -142,7 +142,7 @@
   text-transform: uppercase;
   font-weight: bold;
   font-size: 12px;
-  background-color: #00a857;
+  background-color: #00A857;
   text-align: center;
   width: 120px;
   margin-top: 20px;

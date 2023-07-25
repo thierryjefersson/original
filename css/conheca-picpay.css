@@ -1,0 +1,64 @@
+#main-intro-home #section-02 {
+  position: relative;
+  background-color: #08C76E;
+  height: 692px;
+}
+#main-intro-home #section-02 .grid-section-02 {
+  height: 692px;
+  max-width: 2100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 94%;
+  padding: 0 40px;
+}
+#main-intro-home #section-02 .grid-section-02 .grid-item-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: left;
+  align-self: center;
+  justify-self: center;
+}
+#main-intro-home #section-02 .grid-section-02 .grid-item-1 .logo-picpay {
+  height: 50px;
+  width: 145px;
+}
+#main-intro-home #section-02 .grid-section-02 .grid-item-1 h1 {
+  font-size: 42px;
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  font-weight: 700;
+  width: 13ch;
+}
+#main-intro-home #section-02 .grid-section-02 .grid-item-1 li {
+  list-style-type: disc;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+#main-intro-home #section-02 .grid-section-02 .grid-item-1 .btn-conheca-picpay {
+  display: block;
+  padding: 12px 24px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  background-color: #1A1B1A;
+  color: white;
+  text-align: center;
+  width: 180px;
+  margin-top: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+#main-intro-home #section-02 .grid-section-02 .grid-item-3 {
+  grid-column:  1 / -1;
+}
+#main-intro-home #section-02 .grid-section-02 .grid-item-3 p {
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  margin-left: 200px;
+}
