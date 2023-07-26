@@ -1,0 +1,109 @@
+#section-03 {
+  display: grid;
+  grid-template-columns: 300px 700px 300px;
+  font-family: "Montserrat", sans-serif;
+  background-color: #1a1b1a;
+  color: white;
+  padding: 160px 0;
+  margin-bottom: 105px;
+  justify-content: center;
+}
+
+#section-03 .content-faq {
+  grid-column: 2;
+  display: grid;
+  gap: 150px;
+  text-align: center;
+}
+
+#section-03 .content-faq .initial-title h2 {
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 2;
+}
+#section-03 .content-faq .initial-title p {
+  font-size: 18px;
+  font-weight: 300;
+}
+#section-03 .content-faq .faq-list dt {
+  font-size: 20px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  padding: 20px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+#section-03 .content-faq .faq-list dt:nth-child(n + 2) {
+  border-top: 1px solid rgb(78, 78, 78);
+}
+#section-03 .content-faq .faq-list dt::after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  background: url(../img/arrow-green.svg) no-repeat center center;
+  margin-left: 10px;
+  transition: transform 0.5s;
+  color: #00974e;
+}
+.js #section-03 .content-faq .faq-list dt.active,
+#section-03 .content-faq .faq-list dt:hover {
+  color: #00974e;
+}
+.js #section-03 .content-faq .faq-list dt.active::after {
+  transform: rotate(180deg);
+}
+
+#section-03 .content-faq .faq-list dd {
+  width: 60ch;
+  font-weight: 500;
+  margin-bottom: 18px;
+  padding: 20px;
+  font-size: 16px;
+  text-align: left;
+  line-height: 24px;
+}
+
+.js #section-03 .content-faq .faq-list dd {
+  display: none;
+}
+.js #section-03 .content-faq .faq-list dd.active {
+  display: block;
+  animation: show .3s;
+}
+#section-03 .content-faq .final-title {
+  margin-top: 50px;
+}
+#section-03 .content-faq .final-title h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+#section-03 .content-faq .final-title .btn-tirar-duvidas {
+  background-color: #00974e;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 12px 18px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  transition: 0.3s;
+}
+
+#section-03 .content-faq .final-title .btn-tirar-duvidas:hover {
+  background-color: #00793e;
+}
+
+@keyframes show {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
