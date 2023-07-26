@@ -2,6 +2,7 @@
   position: relative;
   background-color: #08C76E;
   height: 692px;
+  overflow: hidden;
 }
 #main-intro-home #section-02 .grid-section-02 {
   height: 692px;
