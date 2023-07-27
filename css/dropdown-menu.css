@@ -8,12 +8,12 @@
 #header .menu-left ul .nav-item:hover .nav-subitem,
 #header .menu-right ul .nav-item:hover .nav-subitem {
   display: block;
-  animation: show-down 0.5s forwards;
+  animation: show-down 0.3s;
 }
 @keyframes show-down {
   from {
     opacity: 0;
-    transform: translate3d(0, -15px, 0);
+    transform: translate3d(0, -20px, 0);
   }
   to {
     opacity: 1;
@@ -23,28 +23,31 @@
 
 #header .menu-left ul .nav-item #subitens-sobre-o-original {
   position: absolute;
-  top: 99px;
-  background-color: rgb(0, 0, 0);
+  top: 75px;
+  background-color: rgba(29, 29, 29, 0.6);
   padding: 0px 20px 20px 20px;
   width: 300px;
   z-index: 200;
+  border-radius: 0 0 5px 5px;
 }
 #header .menu-left ul .nav-item #subitens-para-empresa {
   position: absolute;
-  top: 99px;
-  background-color: rgba(0, 0, 0, 0.767);
+  top: 75px;
+  background-color: rgba(29, 29, 29, 0.6);
   padding: 0px 20px 20px 20px;
   width: 300px;
   z-index: 200;
+  border-radius: 0 0 5px 5px;
 }
 #header .menu-right ul .nav-item #subitens-acessar-conta {
   position: absolute;
-  top: 80px;
+  top: 47px;
   left: -25px;
   background-color: #00793e;
-  padding: 0px 20px 20px 20px;
+  padding: 10px;
   width: 200px;
   z-index: 200;
+  border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 #header .menu-right ul .nav-item #subitens-acessar-conta::before {
