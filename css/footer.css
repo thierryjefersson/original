@@ -6,7 +6,6 @@
   width: 100vw;
   font-family: "Montserrat", sans-serif;
   padding: 0 20px;
-  overflow: hidden;
 }
 #footer .footer-row-01 {
   display: grid;
@@ -20,11 +19,11 @@
 #footer .footer-row-01 .footer-content-middle h3 {
   font-size: 24px;
   font-weight: 700;
-  color: #00A857;
+  color: #00a857;
   margin-bottom: 20px;
   line-height: 24px;
 }
-#footer .footer-row-01  p {
+#footer .footer-row-01 p {
   font-size: 16px;
   line-height: 24px;
 }
@@ -46,7 +45,7 @@
 #footer .footer-row-02 .footer-content-left {
   align-self: start;
   justify-self: start;
-  border: 4px solid #00A857;
+  border: 4px solid #00a857;
   padding: 20px 20px 60px;
 }
 #footer .footer-row-02 .footer-content-left .link-box-trabalhe {
@@ -59,9 +58,9 @@
   width: 22px;
   height: 19px;
   position: absolute;
-  background-image: url(/img/link-seta.svg);
+  background-image: url(../img/link-seta.svg);
   background-repeat: no-repeat;
-  background-position: center  center;
+  background-position: center center;
   right: -85px;
   bottom: -50px;
 }
@@ -80,9 +79,9 @@
   gap: 20px;
 }
 #footer .footer-row-02 .footer-content-right p {
-max-width: 18ch;
-line-height: 1.25;
-margin-top: 20px;
+  max-width: 18ch;
+  line-height: 1.25;
+  margin-top: 20px;
 }
 
 #footer .footer-row-03 {

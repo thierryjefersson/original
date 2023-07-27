@@ -16,7 +16,7 @@
   background-size: cover;
   background-position: top center;
   background-repeat: no-repeat;
-  background-image: url(/img/main-banner-01.jpg);
+  background-image: url(../img/main-banner-01.jpg);
 }
 .js #main-intro-home #section-01 .bg-img-01 {
   display: none;
@@ -39,7 +39,7 @@
   background-size: cover;
   background-position: top center;
   background-repeat: no-repeat;
-  background-image: url(/img/main-banner-02.jpg);
+  background-image: url(../img/main-banner-02.jpg);
 }
 .js #main-intro-home #section-01 .bg-img-03 {
   height: 100%;
@@ -47,7 +47,7 @@
   background-size: cover;
   background-position: top center;
   background-repeat: no-repeat;
-  background-image: url(/img/para-voce-menu.jpg);
+  background-image: url(../img/para-voce-menu.jpg);
 }
 .js #main-intro-home #section-01 .bg-img-03 {
   display: none;

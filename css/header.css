@@ -12,7 +12,6 @@
   max-height: 100px;
   color: white;
   gap: 20px;
-  overflow-x: hidden;
 }
 #header .menu-left .logo-menu {
   height: 100px;
