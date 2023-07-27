@@ -1,6 +1,6 @@
 #section-03 {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: minmax(500px, 800px);
   font-family: "Montserrat", sans-serif;
   background-color: #1a1b1a;
   color: white;
@@ -9,7 +9,7 @@
 }
 
 #section-03 .content-faq {
-  grid-column: 2;
+  grid-column: 1;
   display: grid;
   gap: 150px;
   text-align: center;
@@ -47,7 +47,7 @@
   display: inline-block;
   background: url(../img/arrow-green.svg) no-repeat center center;
   margin-left: 10px;
-  transition: transform 0.5s;
+  transition: transform 0.3s;
   color: #00974e;
 }
 .js #section-03 .content-faq .faq-list dt.active,
