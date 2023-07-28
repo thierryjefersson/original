@@ -1,10 +1,10 @@
 #section-03 {
   display: grid;
-  grid-template-columns: minmax(500px, 800px);
+  grid-template-columns: 1fr;
   font-family: "Montserrat", sans-serif;
   background-color: #1a1b1a;
   color: white;
-  padding: 160px 0;
+  padding: 160px 20px;
   justify-content: center;
 }
 
@@ -14,6 +14,7 @@
   gap: 150px;
   text-align: center;
   margin-bottom: 150px;
+  justify-content: center;
 }
 
 #section-03 .content-faq .initial-title h2 {
@@ -32,15 +33,15 @@
   align-items: center;
   text-align: left;
   justify-content: space-between;
-  margin-bottom: 8px;
+  margin-top: 14px;
   padding: 20px;
   transition: 0.3s;
-  cursor: pointer;
+  position: relative;
 }
 #section-03 .content-faq .faq-list dt:nth-child(n + 2) {
   border-top: 1px solid rgb(78, 78, 78);
 }
-#section-03 .content-faq .faq-list dt::after {
+.js #section-03 .content-faq .faq-list dt::after {
   content: "";
   width: 10px;
   height: 10px;
@@ -51,29 +52,37 @@
   color: #00974e;
 }
 .js #section-03 .content-faq .faq-list dt.active,
-#section-03 .content-faq .faq-list dt:hover {
+.js #section-03 .content-faq .faq-list dt:hover {
   color: #00974e;
+  cursor: pointer;
 }
 .js #section-03 .content-faq .faq-list dt.active::after {
   transform: rotate(180deg);
 }
 
 #section-03 .content-faq .faq-list dd {
-  width: 60ch;
+  width: 70ch;
   font-weight: 500;
-  margin-bottom: 18px;
-  padding: 20px;
+  padding: 0px 20px;
   font-size: 16px;
   text-align: left;
   line-height: 24px;
 }
 
 .js #section-03 .content-faq .faq-list dd {
-  display: none;
+  height: 0;
+  visibility: hidden;
+  overflow-y: hidden;
+  transition: .5s;
 }
 .js #section-03 .content-faq .faq-list dd.active {
-  display: block;
-  animation: show .3s;
+  visibility: visible;
+  height: 120px;
+  margin-top: 0px;
+  overflow-y: auto;
+}
+.js #section-03 .content-faq .faq-list dd.active::-webkit-scrollbar {
+  background-color: transparent;
 }
 #section-03 .content-faq .final-title {
   margin-top: 50px;
@@ -95,15 +104,4 @@
 
 #section-03 .content-faq .final-title .btn-tirar-duvidas:hover {
   background-color: #00793e;
-}
-
-@keyframes show {
-  from {
-    opacity: 0;
-    transform: translateY(-10px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0px);
-  }
 }
